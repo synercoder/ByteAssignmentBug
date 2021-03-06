@@ -11,6 +11,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     strategy:
+      fail-fast: false
       matrix:
         dotnet: [ '3.1.x', '5.0.x', '6.0.100-preview.1' ]
     steps:
