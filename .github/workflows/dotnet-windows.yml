@@ -1,4 +1,6 @@
-name: .NET Core Linux
+name: .NET Core Windows
+
+on: workflow_dispatch
 
 env:
   # Stop wasting time caching packages
